@@ -1,0 +1,13 @@
+{
+  "itemGroup.evoker_fang_rework": "Example Mod Tab",
+  "block.evoker_fang_rework.example_block": "Example Block",
+  "item.evoker_fang_rework.example_item": "Example Item",
+
+  "evoker_fang_rework.configuration.title": "Evoker Fang Rework Configs",
+  "evoker_fang_rework.configuration.section.evoker_fang_rework.common.toml": "Evoker Fang Rework Configs",
+  "evoker_fang_rework.configuration.section.evoker_fang_rework.common.toml.title": "Evoker Fang Rework Configs",
+  "evoker_fang_rework.configuration.items": "Item List",
+  "evoker_fang_rework.configuration.logDirtBlock": "Log Dirt Block",
+  "evoker_fang_rework.configuration.magicNumberIntroduction": "Magic Number Text",
+  "evoker_fang_rework.configuration.magicNumber": "Magic Number"
+}
