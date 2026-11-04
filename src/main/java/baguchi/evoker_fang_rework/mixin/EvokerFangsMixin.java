@@ -29,10 +29,10 @@ public abstract class EvokerFangsMixin extends Entity implements TraceableEntity
 
             for (int i = 0; i < 4; ++i) {
                 double x = this.getX() + (this.random.nextDouble() * (double) 2.0F - (double) 1.0F) * (double) this.getBbWidth() * (double) 0.5F;
-                double y = this.getY() + 0.05 + this.random.nextDouble();
+                double y = this.getY() + 0.05;
                 double z = this.getZ() + (this.random.nextDouble() * (double) 2.0F - (double) 1.0F) * (double) this.getBbWidth() * (double) 0.5F;
                 double xd = (this.random.nextDouble() * (double) 2.0F - (double) 1.0F) * 0.3;
-                double yd = 0.3 + this.random.nextDouble() * 0.3;
+                double yd = 0.6 + this.random.nextDouble() * 0.3;
                 double zd = (this.random.nextDouble() * (double) 2.0F - (double) 1.0F) * 0.3;
                 this.level().addParticle(new BlockParticleOption(ParticleTypes.BLOCK_CRUMBLE, blockState), x, y, z, xd, yd, zd);
             }
